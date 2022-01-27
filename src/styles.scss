@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+
+/* Remove all margins and paddings, Remove blue highlight on mobile & Change the default font-family & color */
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: "OpenSans", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.75rem;
+}
+
+
+/* Set font-size to 62.5% so 0.1rem = 1 px */
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}

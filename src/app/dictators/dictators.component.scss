@@ -1,0 +1,11 @@
+input[type=submit]:disabled {
+    color: red;
+}
+
+table {
+    width: 100vw;
+}
+
+table tr {
+    border-bottom: 1px solid green;
+}
